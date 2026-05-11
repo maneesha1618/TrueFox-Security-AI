@@ -1,0 +1,140 @@
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ── Virtual Environment ─────────────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Jupyter Notebooks ───────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# ── Model Weights (too large for GitHub) ────────────────────
+# Upload to Google Drive / HuggingFace and share link in README
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.engine
+models/*.trt
+models/*.bin
+models/*.pkl
+
+# Keep the models folder itself tracked
+!models/.gitkeep
+
+# ── Dataset Files (never commit raw data) ───────────────────
+data/
+datasets/
+*.zip
+*.tar.gz
+*.tar
+*.gz
+data_sample/videos/
+data_sample/raw/
+
+# Keep sample images for demo (small files only)
+!data_sample/*.jpg
+!data_sample/*.png
+!data_sample/README.md
+
+# ── Results & Outputs ───────────────────────────────────────
+# Commit only selected screenshots, not bulk output
+results/videos/
+results/logs/
+results/runs/
+*.avi
+*.mp4
+*.mov
+
+# Keep selected result screenshots
+!results/screenshots/
+!results/*.png
+!results/*.jpg
+!results/README.md
+
+# ── YOLO Training Runs ──────────────────────────────────────
+runs/
+yolo_runs/
+wandb/
+mlruns/
+
+# ── Secrets & API Keys ──────────────────────────────────────
+.env
+.env.local
+.env.production
+*.key
+secrets.yaml
+config_private.yaml
+
+# ── OS Generated Files ──────────────────────────────────────
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.nfs*
+
+# ── VS Code ─────────────────────────────────────────────────
+.vscode/
+!.vscode/extensions.json   # keep recommended extensions list
+*.code-workspace
+
+# ── IDE / Editor ────────────────────────────────────────────
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ── Logs ────────────────────────────────────────────────────
+*.log
+logs/
+alert_log.csv
+inference_log.csv
+
+# ── Temporary Files ─────────────────────────────────────────
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+
+# ── Testing ─────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ── Kaggle Credentials ──────────────────────────────────────
+kaggle.json
+~/.kaggle/
