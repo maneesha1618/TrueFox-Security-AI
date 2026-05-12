@@ -1,0 +1,54 @@
+============================================================
+  TrueFox AI — Evaluation Report
+  Generated: 2026-05-12 21:38:28
+============================================================
+
+
+-- System Info ------------------------------------------
+  Weapon Model : YOLOv8m fine-tuned
+  Fight Model  : MobileNetV3-Small
+  Device       : CPU
+  Test Clips   : 7
+
+-- Per Clip Results  ------------------------------------------
+  fight_1.avi                    fight=✓ weapon=✗ fps=1.2
+  fight_2.avi                    fight=✓ weapon=✓ fps=1.0
+  fight_3.avi                    fight=✓ weapon=✗ fps=1.3
+  nonfight_1.avi                 fight=✓ weapon=✓ fps=1.0
+  nonfight_2.avi                 fight=✓ weapon=✗ fps=1.3
+  nonfight_3.avi                 fight=✓ weapon=✓ fps=1.0
+  weapon_test_video.avi          fight=✓ weapon=✓ fps=1.1
+
+-- Fight Detection Metrics  ------------------------------------------
+  Precision : 1.000
+  Recall    : 1.000
+  F1 Score  : 1.000
+  Accuracy  : 1.000
+  TP=3 FP=0 FN=0 TN=4
+
+-- Weapon Detection Metrics  ------------------------------------------
+  Precision : 0.250
+  Recall    : 1.000
+  F1 Score  : 0.400
+  Accuracy  : 0.571
+  TP=1 FP=3 FN=0 TN=3
+
+-- Inference Speed  ------------------------------------------
+  Avg FPS       : 1.13
+  Min FPS       : 0.98
+  Max FPS       : 1.29
+  Avg ms/frame  : 883.9ms
+
+-- Limitations  ------------------------------------------
+  1. Fight classifier uses single frame (no temporal)
+  2. CPU inference limits FPS vs GPU deployment
+  3. Weapon model trained on still images, not CCTV
+  4. Low light / occluded scenes reduce accuracy
+
+-- Future Improvements  ------------------------------------------
+  1. Use LSTM over frame sequences for fight detection
+  2. Fine-tune on CCTV-specific footage
+  3. Add person tracking with ByteTrack
+  4. Deploy with TensorRT for real-time GPU inference
+  
+============================================================
