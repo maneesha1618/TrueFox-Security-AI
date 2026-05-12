@@ -1,0 +1,18 @@
+Fight Detection — Evaluation Report
+========================================
+Model       : MobileNetV3-Small
+Dataset     : RWF-2000
+Train clips : 1600
+Val clips   : 200
+Test clips  : 200
+Best val acc: 0.8250
+Best epoch  : 10/20
+
+              precision    recall  f1-score   support
+
+    NonFight       0.78      0.72      0.75        93
+       Fight       0.77      0.82      0.80       107
+
+    accuracy                           0.78       200
+   macro avg       0.78      0.77      0.77       200
+weighted avg       0.78      0.78      0.77       200
