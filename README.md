@@ -352,6 +352,18 @@ Each frame goes through the following pipeline:
 
 ![PR Curve](results/weapon_BoxPR_curve.png)
 
+**Fight detection — alert snapshot (fight_1.avi):**
+
+![Fight Alert 1](results/alert_snapshots/alert_fight_20260512_150104_f3.jpg)
+
+**Fight detection — alert snapshot (fight_2.avi):**
+
+![Fight Alert 2](results/alert_snapshots/alert_fight_20260512_142840_f3.jpg)
+
+**Fight detection — alert snapshot (fight_3.avi):**
+
+![Fight Alert 3](results/alert_snapshots/alert_fight_20260512_142655_f3.jpg)
+
 **Fight detection — training curves:**
 
 ![Fight Training Curves](results/fight_training_curves.png)
