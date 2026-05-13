@@ -103,6 +103,7 @@ Annotated   CSV Log     Alert Snapshots
 TrueFox-Security-AI/
 ├── main.py                    # Entry point + video loop
 ├── config.py                  # Paths, thresholds, constants
+├── requirements.txt           # file that has all the dependencies
 ├── scripts/
 │   ├── model_loader.py        # Loads both models at startup
 │   ├── weapon_detector.py     # YOLOv8 inference + bbox drawing
