@@ -356,13 +356,13 @@ Each frame goes through the following pipeline:
 
 ![Fight Alert 1](results/alert_snapshots/alert_fight_20260512_150104_f3.jpg)
 
-**Fight detection — alert snapshot (fight_2.avi):**
+**Fight detection — alert snapshot (fight_2.avi — RWF-2000):**
 
-![Fight Alert 2](results/alert_snapshots/alert_fight_20260512_142840_f3.jpg)
+![Fight Alert 2](results/alert_snapshots/alert_fight_20260512_202502_f105.jpg)
 
-**Fight detection — alert snapshot (fight_3.avi):**
+**Fight detection — alert snapshot (fight_3.avi — RWF-2000):**
 
-![Fight Alert 3](results/alert_snapshots/alert_fight_20260512_142655_f3.jpg)
+![Fight Alert 3](results/alert_snapshots/alert_fight_20260512_202731_f45.jpg)
 
 **Fight detection — training curves:**
 
