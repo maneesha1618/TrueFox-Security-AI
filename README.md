@@ -332,12 +332,37 @@ Each frame goes through the following pipeline:
 
 ### 10.4 Sample Output Screenshots
 
-**Armed person detection:**
-![Weapon Detection](results/weapon_val_predictions.jpg)
+**Weapon detection — validation predictions:**
 
-**Fight detection with alert banner:**
-![Fight Detection](results/alert_snapshots/alert_fight_20260512_150104_f3.jpg)
+![Weapon Detection](results/weapon_val_batch0_pred.jpg)
 
+**Weapon detection — training batch samples:**
+
+![Training Samples](results/weapon_train_batch0.jpg)
+
+**Weapon detection — training curves:**
+
+![Training Curves](results/weapon_results.png)
+
+**Weapon detection — confusion matrix:**
+
+![Confusion Matrix](results/weapon_confusion_matrix.png)
+
+**Weapon detection — PR curve:**
+
+![PR Curve](results/weapon_BoxPR_curve.png)
+
+**Fight detection — training curves:**
+
+![Fight Training Curves](results/fight_training_curves.png)
+
+**Fight detection — confusion matrix:**
+
+![Fight Confusion Matrix](results/fight_confusion_matrix.png)
+
+**System evaluation — FPS chart:**
+
+![FPS Chart](results/eval_fps_chart.png)
 ---
 
 ## 11. Evaluation Metrics
