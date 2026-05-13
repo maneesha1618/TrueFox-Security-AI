@@ -1,7 +1,5 @@
-Perfect structure! Now let's write the complete README. Open `README.md`, select all, delete everything and paste this:
-
-```markdown
 # AI-Based Intelligent Camera Security System
+
 ### TrueFox AI Inc. — Technical Assignment
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-green)
@@ -81,25 +79,26 @@ Video Input (file / webcam / RTSP)
            ▼
     Frame Extractor (OpenCV)
            │
-    ┌──────┴──────────────────┐
-    ▼                         ▼
-YOLOv8m                MobileNetV3-Small
-(Weapon Detection)     (Fight Detection)
-pistol / knife         Fight / NonFight
-    │                         │
-    └──────────┬──────────────┘
+    ┌──────┴───────────────────┐
+    ▼                          ▼
+YOLOv8m                 MobileNetV3-Small
+(Weapon Detection)      (Fight Detection)
+pistol / knife          Fight / NonFight
+    │                          │
+    └──────────┬───────────────┘
                ▼
          Alert Engine
-   (consecutive frame logic
-    + cooldown deduplication)
+  (consecutive frame logic
+   + cooldown deduplication)
                │
     ┌──────────┼──────────────┐
     ▼          ▼              ▼
 Annotated   CSV Log     Alert Snapshots
-  Video    (per frame)    (JPEG on alert)
+  Video    (per frame)  (JPEG on alert)
 ```
 
 ### Module Structure
+
 ```
 TrueFox-Security-AI/
 ├── main.py                    # Entry point + video loop
@@ -456,7 +455,4 @@ Each frame goes through the following pipeline:
 ## Author
 **Maneesha** — TrueFox AI Inc. Technical Assignment
 Submission Deadline: Sunday, 17 May 2026, 11:59 PM IST
-```
-
----
 
