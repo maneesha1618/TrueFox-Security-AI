@@ -199,6 +199,10 @@ pip install -r requirements.txt
 
 ## 7. How to Run
 
+### Get test clips
+Download test video clips from Google Drive and place in `data_sample/`:
+[Download Test Clips](https://drive.google.com/drive/folders/153WFcFicN7i4pvH5pCzNmpa0Bo93LboD?usp=drive_link)
+
 ### Run on a video file
 ```bash
 python main.py --source data_sample/fight_1.avi
