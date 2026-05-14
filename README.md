@@ -396,6 +396,11 @@ Each frame goes through the following pipeline:
 | F1 Score | 0.400 |
 | Accuracy | 0.571 |
 
+> **Note:** Clip-level metrics above are computed on the 7 system 
+> test clips (Section 10.3), not the full test split. Frame-level 
+> metrics on the full 200-clip test set are reported in Section 10.2.
+
+
 ### Inference Speed
 | Metric | Value |
 |---|---|
