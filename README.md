@@ -396,8 +396,26 @@ Each frame goes through the following pipeline:
 | F1 Score | 0.400 |
 | Accuracy | 0.571 |
 
-> **Note:** Clip-level metrics above are computed on the 7 system 
-> test clips (Section 10.3), not the full test split. Frame-level 
+### Confusion Matrices
+
+**Weapon Detection — Confusion Matrix (Validation set, 291 images):**
+
+![Weapon Confusion Matrix](results/weapon_confusion_matrix.png)
+
+**Fight Detection — Confusion Matrix (Test set, 200 clips):**
+
+![Fight Confusion Matrix](results/fight_confusion_matrix.png)
+
+**System-level Evaluation — Weapon Detection (7 test clips):**
+
+![Weapon Eval Confusion](results/eval_weapon_confusion.png)
+
+**System-level Evaluation — Fight Detection (7 test clips):**
+
+![Fight Eval Confusion](results/eval_fight_confusion.png)
+
+> **Note:** Clip-level metrics above are computed on the 7 system
+> test clips (Section 10.3), not the full test split. Frame-level
 > metrics on the full 200-clip test set are reported in Section 10.2.
 
 
